@@ -1,3 +1,4 @@
+import SubTitle from './components/subtitle/SubTitle';
 import Title from './components/title/Title';
 
 const App = () => {
@@ -7,10 +8,13 @@ const App = () => {
 
 	return (
 		<>
-			<Title color='blue' size='1rem' />
-			<Title color='red' size='2rem' />
+			<Title color='blue' size='4rem' />
+			{/* <Title color='red' size='2rem' />
 			<Title color='green' size='3rem' />
-			<Title color='black' size='4rem' />
+			<Title color='black' size='4rem' /> */}
+
+			
+			<SubTitle subTitle='Soy un Subtítulo' />
 		</>
 	);
 	
